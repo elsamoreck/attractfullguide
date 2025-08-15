@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Never Chase a Woman - The Complete 21 Secrets Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 50%, #2d2d2d 100%);
+            color: #ffffff;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            padding: 60px 0;
+            text-align: center;
+            background: radial-gradient(circle at center, rgba(255, 215, 0, 0.15) 0%, transparent 70%);
+            position: relative;
+        }
+
+        .guide-title {
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 30%, #ffd700 70%, #ffed4e 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .guide-subtitle {
+            font-size: 1.5rem;
+            color: #e5e5e5;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Navigation */
+        .nav-section {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px 0;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .nav-item {
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.8) 0%, rgba(45, 45, 45, 0.6) 100%);
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border-left: 4px solid #ffd700;
+        }
+
+        .nav-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 215, 0, 0.2);
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .nav-item h3 {
+            color: #ffd700;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .nav-item p {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+
+        /* Chapter Sections */
+        .chapter {
+            padding: 80px 0;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .chapter-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #000;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 1.5rem;
+            box-shadow: 0 10px 20px rgba(255, 215, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        .chapter-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+
+        .chapter h3 {
+            color: #ffd700;
+            font-size: 1.8rem;
+            margin: 40px 0 20px 0;
+            border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+            padding-bottom: 10px;
+        }
+
+        .chapter h4 {
+            color: #ffffff;
+            font-size: 1.4rem;
+            margin: 30px 0 15px 0;
+        }
+
+        .chapter p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: #e2e8f0;
+        }
+
+        /* Secret Boxes */
+        .secret-box {
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.8) 0%, rgba(45, 45, 45, 0.6) 100%);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin: 40px 0;
+            border-left: 5px solid #ffd700;
+            position: relative;
+        }
+
+        .secret-number {
+            position: absolute;
+            top: -20px;
+            left: 40px;
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #000;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 1.8rem;
+            box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+        }
+
+        .secret-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #ffd700;
+            margin-bottom: 20px;
+            padding-top: 25px;
+        }
+
+        .secret-description {
+            font-size: 1.2rem;
+            color: #e2e8f0;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        /* Special Boxes */
+        .insight-box {
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .insight-box h4 {
+            color: #ffd700;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .example-box {
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 4px solid #ffd700;
+            padding: 20px;
+            margin: 25px 0;
+            font-style: italic;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .warning-box {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .warning-box h4 {
+            color: #ef4444;
+            margin-top: 0;
+        }
+
+        .success-box {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .success-box h4 {
+            color: #22c55e;
+            margin-top: 0;
+        }
+
+        /* Lists */
+        .technique-list {
+            list-style: none;
+            counter-reset: item-counter;
+        }
+
+        .technique-list li {
+            counter-increment: item-counter;
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            position: relative;
+            padding-left: 60px;
+        }
+
+        .technique-list li::before {
+            content: counter(item-counter);
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            background: #ffd700;
+            color: #000;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .bullet-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .bullet-list li {
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .bullet-list li::before {
+            content: '💎';
+            position: absolute;
+            left: 0;
+            font-size: 1rem;
+        }
+
+        .checklist {
+            list-style: none;
+        }
+
+        .checklist li {
+            margin: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .checklist li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #22c55e;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Two Column Layout */
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .column {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .chaser-column {
+            border-left: 4px solid #ef4444;
+        }
+
+        .chased-column {
+            border-left: 4px solid #22c55e;
+        }
+
+        .chaser-column h4 {
+            color: #ef4444;
+        }
+
+        .chased-column h4 {
+            color: #22c55e;
+        }
+
+        /* Action Steps */
+        .action-plan {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 237, 78, 0.05) 100%);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .step {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px 0;
+            border-left: 4px solid #ffd700;
+        }
+
+        .step h4 {
+            color: #ffd700;
+            margin-bottom: 15px;
+        }
+
+        /* Implementation Timeline */
+        .timeline {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border-left: 4px solid #ffd700;
+        }
+
+        .timeline-day {
+            background: #ffd700;
+            color: #000;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-weight: 800;
+            min-width: 80px;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        .timeline-content {
+            flex: 1;
+        }
+
+        .timeline-content h4 {
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .guide-title {
+                font-size: 2.5rem;
+            }
+            
+            .chapter-title {
+                font-size: 2rem;
+            }
+            
+            .nav-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+            
+            .secret-box,
+            .action-plan {
+                padding: 25px 20px;
+            }
+
+            .timeline-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .timeline-day {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+
+        /* Scroll Progress */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+        }
+
+        .scroll-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #ffd700, #ffed4e);
+            width: 0%;
+            transition: width 0.1s ease;
+        }
+
+        /* Floating Elements */
+        .floating-element {
+            position: absolute;
+            opacity: 0.08;
+            pointer-events: none;
+            animation: float-gold 20s ease-in-out infinite;
+        }
+
+        @keyframes float-gold {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-35px) rotate(180deg); }
+        }
+
+        .floating-1 {
+            top: 15%;
+            left: 8%;
+            width: 70px;
+            height: 70px;
+            background: #ffd700;
+            border-radius: 50%;
+            animation-delay: 0s;
+        }
+
+        .floating-2 {
+            top: 70%;
+            right: 10%;
+            width: 50px;
+            height: 50px;
+            background: #ffffff;
+            border-radius: 50%;
+            animation-delay: 7s;
+        }
+
+        .floating-3 {
+            bottom: 20%;
+            left: 15%;
+            width: 60px;
+            height: 60px;
+            background: #ffd700;
+            transform: rotate(45deg);
+            animation-delay: 14s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating Elements -->
+    <div class="floating-element floating-1"></div>
+    <div class="floating-element floating-2"></div>
+    <div class="floating-element floating-3"></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress">
+        <div class="scroll-bar" id="scrollBar"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="guide-title">NEVER CHASE A WOMAN<br>THE COMPLETE<br>21 SECRETS GUIDE</h1>
+            <p class="guide-subtitle">The Complete Psychology System That Makes Women Pursue You Instead of You Chasing Them</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <section class="nav-section">
+        <div class="container">
+            <div class="nav-grid">
+                <div class="nav-item" onclick="scrollToChapter('introduction')">
+                    <h3>Introduction: The Chase Reversal</h3>
+                    <p>Why chasing repels and being chased attracts</p>
+                </div>
+                <div class="nav-item" onclick="scrollToChapter('secrets1-7')">
+                    <h3>Secrets 1-7: Foundation Principles</h3>
+                    <p>Core psychological triggers that create attraction</p>
+                </div>
+                <div class="nav-item" onclick="scrollToChapter('secrets8-14')">
+                    <h3>Secrets 8-14: Advanced Techniques</h3>
+                    <p>Sophisticated methods to increase your value</p>
+                </div>
+                <div class="nav-item" onclick="scrollToChapter('secrets15-21')">
+                    <h3>Secrets 15-21: Master Level</h3>
+                    <p>Elite strategies for complete role reversal</p>
+                </div>
+                <div class="nav-item" onclick="scrollToChapter('implementation')">
+                    <h3>Implementation Guide</h3>
+                    <p>30-day action plan to transform your dating life</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="chapter" id="introduction">
+        <div class="container">
+            <h2 class="chapter-title">INTRODUCTION: THE CHASE REVERSAL</h2>
+            
+            <p>Every man who struggles with women makes the same fundamental mistake: they chase. They pursue, they seek approval, they try to convince women to like them. This approach is not only ineffective—it's actively repulsive to the women you want most.</p>
+
+            <p>This guide contains 21 psychological secrets that will completely reverse the dynamic. Instead of you chasing women, they will chase you. Instead of you trying to impress them, they will compete for your attention. Instead of you being grateful for their time, they will be grateful for yours.</p>
+
+            <div class="insight-box">
+                <h4>The Fundamental Truth:</h4>
+                <p>Attraction is not logical—it's psychological. Women are not attracted to men who are easy to get, always available, or desperate for their approval. They are attracted to men who are selective, valuable, and slightly out of reach.</p>
+            </div>
+
+            <h3>Why Chasing Never Works</h3>
+            <p>When you chase a woman, you communicate several unattractive things:</p>
+
+            <ul class="bullet-list">
+                <li>You have no other options (low social value)</li>
+                <li>You don't value your own time (low self-worth)</li>
+                <li>You're desperate for her approval (neediness)</li>
+                <li>She doesn't have to work for your attention (no challenge)</li>
+                <li>You'll accept any behavior from her (no standards)</li>
+            </ul>
+
+            <h3>The Psychology of Being Chased</h3>
+            <p>When women chase you instead, the entire dynamic changes:</p>
+
+            <div class="two-column">
+                <div class="column chaser-column">
+                    <h4>❌ When You Chase</h4>
+                    <ul class="bullet-list">
+                        <li>You text first constantly</li>
+                        <li>You make all the plans</li>
+                        <li>You pay for everything</li>
+                        <li>You're always available</li>
+                        <li>You seek her approval</li>
+                        <li>You have no leverage</li>
+                    </ul>
+                </div>
+                <div class="column chased-column">
+                    <h4>✅ When You're Chased</h4>
+                    <ul class="bullet-list">
+                        <li>She texts you first</li>
+                        <li>She suggests dates and activities</li>
+                        <li>She offers to pay sometimes</li>
+                        <li>She works around your schedule</li>
+                        <li>She seeks your approval</li>
+                        <li>You have all the power</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h4>Important Note:</h4>
+                <p>This isn't about being mean, manipulative, or playing games. It's about becoming genuinely more valuable and attractive. The goal is to develop authentic confidence and standards that naturally make women want to pursue you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secrets 1-7: Foundation Principles -->
+    <section class="chapter" id="secrets1-7">
+        <div class="container">
+            <div class="chapter-number">1-7</div>
+            <h2 class="chapter-title">FOUNDATION PRINCIPLES</h2>
+            
+            <p>These first seven secrets form the foundation of becoming the type of man women chase. Master these before moving to the advanced techniques.</p>
+
+            <!-- Secret 1 -->
+            <div class="secret-box">
+                <div class="secret-number">1</div>
+                <h3 class="secret-title">The Scarcity Principle</h3>
+                <p class="secret-description">People value what's rare and hard to get. When you're always available, you become common and worthless. When you're selective with your time and attention, you become precious.</p>
+                
+                <div class="example-box">
+                    <h4>Implementation:</h4>
+                    <p><strong>Don't:</strong> "I'm free whenever you want to hang out"</p>
+                    <p><strong>Do:</strong> "I'm busy this week, but I can make time Thursday evening"</p>
+                </div>
+
+                <h4>How to Apply Scarcity:</h4>
+                <ul class="technique-list">
+                    <li>Limit your availability to 2-3 specific time slots per week</li>
+                    <li>Don't cancel other plans to see her</li>
+                    <li>Have a full life with hobbies, friends, and goals</li>
+                    <li>Make her compete with your other priorities</li>
+                </ul>
+            </div>
+
+            <!-- Secret 2 -->
+            <div class="secret-box">
+                <div class="secret-number">2</div>
+                <h3 class="secret-title">The Mystery Factor</h3>
+                <p class="secret-description">Mystery creates intrigue and keeps her thinking about you. When you reveal everything about yourself immediately, there's nothing left to discover. Maintain layers that she has to earn access to.</p>
+                
+                <div class="insight-box">
+                    <h4>The 70/30 Rule:</h4>
+                    <p>Reveal 70% of yourself while keeping 30% mysterious. Share enough to create connection, but not enough to eliminate intrigue.</p>
+                </div>
+
+                <h4>Mystery Techniques:</h4>
+                <ul class="technique-list">
+                    <li>Don't answer every question in detail</li>
+                    <li>Reference experiences without explaining fully</li>
+                    <li>Have parts of your life she doesn't know about</li>
+                    <li>End conversations while they're still engaging</li>
+                </ul>
+            </div>
+
+            <!-- Secret 3 -->
+            <div class="secret-box">
+                <div class="secret-number">3</div>
+                <h3 class="secret-title">The Challenge Technique</h3>
+                <p class="secret-description">Women are attracted to challenges, not certainties. When you're easy to get, there's no thrill of the chase. Present yourself as someone she has to earn and work for.</p>
+                
+                <div class="example-box">
+                    <h4>Creating Challenge:</h4>
+                    <p><strong>Weak:</strong> "You're amazing, I really like you"</p>
+                    <p><strong>Strong:</strong> "You're interesting, but I'm still figuring you out"</p>
+                </div>
+
+                <h4>Challenge Strategies:</h4>
+                <ul class="technique-list">
+                    <li>Don't compliment her excessively</li>
+                    <li>Have standards she needs to meet</li>
+                    <li>Show interest but not desperation</li>
+                    <li>Make her prove her worth to you</li>
+                </ul>
+            </div>
+
+            <!-- Secret 4 -->
+            <div class="secret-box">
+                <div class="secret-number">4</div>
+                <h3 class="secret-title">The Social Proof Method</h3>
+                <p class="secret-description">Nothing makes a woman want you more than seeing that other women want you. Social proof is the fastest way to increase your perceived value and create competition anxiety.</p>
+                
+                <div class="success-box">
+                    <h4>Preselection Effect:</h4>
+                    <p>When women see that other women find you attractive, they automatically assume you have desirable qualities they haven't noticed yet.</p>
+                </div>
+
+                <h4>Building Social Proof:</h4>
+                <ul class="technique-list">
+                    <li>Develop genuine friendships with attractive women</li>
+                    <li>Post photos with female friends (not romantic)</li>
+                    <li>Mention other women casually in conversation</li>
+                    <li>Be seen in social situations with multiple women</li>
+                </ul>
+            </div>
+
+            <!-- Secret 5 -->
+            <div class="secret-box">
+                <div class="secret-number">5</div>
+                <h3 class="secret-title">The Investment Reversal</h3>
+                <p class="secret-description">The person who invests more becomes more attached. Instead of you investing all the time, energy, and money, get her to invest in you. Make her work for your attention and approval.</p>
+                
+                <div class="two-column">
+                    <div class="column chaser-column">
+                        <h4>You Investing</h4>
+                        <ul class="bullet-list">
+                            <li>You plan all dates</li>
+                            <li>You pay for everything</li>
+                            <li>You drive to her location</li>
+                            <li>You text first always</li>
+                        </ul>
+                    </div>
+                    <div class="column chased-column">
+                        <h4>Her Investing</h4>
+                        <ul class="bullet-list">
+                            <li>She suggests date ideas</li>
+                            <li>She offers to pay sometimes</li>
+                            <li>She comes to your area</li>
+                            <li>She initiates conversations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h4>Investment Techniques:</h4>
+                <ul class="technique-list">
+                    <li>Ask her to plan the second date</li>
+                    <li>Have her pick you up occasionally</li>
+                    <li>Let her buy you coffee or drinks</li>
+                    <li>Make her text first sometimes</li>
+                </ul>
+            </div>
+
+            <!-- Secret 6 -->
+            <div class="secret-box">
+                <div class="secret-number">6</div>
+                <h3 class="secret-title">The Confidence Magnet</h3>
+                <p class="secret-description">Confidence is the ultimate aphrodisiac. Not arrogance or cockiness, but genuine self-assurance that comes from knowing your worth. Confident men don't chase because they know they're the prize.</p>
+                
+                <div class="insight-box">
+                    <h4>True Confidence vs. Fake Confidence:</h4>
+                    <p><strong>True:</strong> Calm, centered, unshakeable regardless of her response</p>
+                    <p><strong>Fake:</strong> Loud, boastful, crumbles when challenged</p>
+                </div>
+
+                <h4>Building Unshakeable Confidence:</h4>
+                <ul class="technique-list">
+                    <li>Develop skills and competencies in multiple areas</li>
+                    <li>Set and achieve challenging personal goals</li>
+                    <li>Stop seeking validation from women</li>
+                    <li>Know your value regardless of her opinion</li>
+                </ul>
+            </div>
+
+            <!-- Secret 7 -->
+            <div class="secret-box">
+                <div class="secret-number">7</div>
+                <h3 class="secret-title">The Time Control System</h3>
+                <p class="secret-description">Your time is your most valuable asset. When you give it away freely, it becomes worthless. When you make it scarce and valuable, people fight for it. Control your time to control the relationship dynamic.</p>
+                
+                <div class="example-box">
+                    <h4>Time Control in Action:</h4>
+                    <p><strong>Her:</strong> "Can you come over right now?"</p>
+                    <p><strong>You:</strong> "I'm in the middle of something important. How about tomorrow at 7?"</p>
+                </div>
+
+                <h4>Time Control Strategies:</h4>
+                <ul class="technique-list">
+                    <li>Schedule specific times for dates, don't be spontaneous</li>
+                    <li>Have end times for your meetings</li>
+                    <li>Don't be available for last-minute requests</li>
+                    <li>Make her plan around your schedule</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secrets 8-14: Advanced Techniques -->
+    <section class="chapter" id="secrets8-14">
+        <div class="container">
+            <div class="chapter-number">8-14</div>
+            <h2 class="chapter-title">ADVANCED TECHNIQUES</h2>
+            
+            <p>Once you've mastered the foundation principles, these advanced techniques will amplify your attractiveness and create intense desire for your attention.</p>
+
+            <!-- Secret 8 -->
+            <div class="secret-box">
+                <div class="secret-number">8</div>
+                <h3 class="secret-title">The Emotional Distance Strategy</h3>
+                <p class="secret-description">Strategic emotional distance creates longing and desire. When you're emotionally available all the time, she takes you for granted. Create space that makes her miss you and crave your presence.</p>
+                
+                <div class="insight-box">
+                    <h4>The Push-Pull Dynamic:</h4>
+                    <p>Show interest, then pull back. Create emotional highs followed by neutral periods. This creates an addictive cycle where she chases the high of your attention.</p>
+                </div>
+
+                <h4>Distance Techniques:</h4>
+                <ul class="technique-list">
+                    <li>Don't respond to every text immediately</li>
+                    <li>Take breaks from constant communication</li>
+                    <li>Be warm in person, cooler over text</li>
+                    <li>Don't always be emotionally available</li>
+                </ul>
+            </div>
+
+            <!-- Secret 9 -->
+            <div class="secret-box">
+                <div class="secret-number">9</div>
+                <h3 class="secret-title">The Standards Framework</h3>
+                <p class="secret-description">Men with high standards are attractive because they signal high value. When you accept any behavior, you communicate that you have no options. Set clear expectations and enforce them consistently.</p>
+                
+                <div class="example-box">
+                    <h4>Setting Standards:</h4>
+                    <p><strong>Weak:</strong> Accepting last-minute cancellations without consequence</p>
+                    <p><strong>Strong:</strong> "I need at least 4 hours notice if plans change. Otherwise, I make other arrangements."</p>
+                </div>
+
+                <h4>Key Standards to Set:</h4>
+                <ul class="technique-list">
+                    <li>Punctuality - she shows up on time</li>
+                    <li>Communication - respectful and timely responses</li>
+                    <li>Effort - she contributes to planning and activities</li>
+                    <li>Respect - no disrespectful behavior tolerated</li>
+                </ul>
+            </div>
+
+            <!-- Secret 10 -->
+            <div class="secret-box">
+                <div class="secret-number">10</div>
+                <h3 class="secret-title">The Competition Anxiety Trigger</h3>
+                <p class="secret-description">Nothing motivates a woman like the fear of losing you to another woman. Subtle hints about other options make her realize she needs to step up her game to keep your interest.</p>
+                
+                <div class="warning-box">
+                    <h4>Use Subtly:</h4>
+                    <p>This isn't about lying or being dishonest. It's about maintaining an abundance mindset and not hiding the fact that you have options.</p>
+                </div>
+
+                <h4>Competition Triggers:</h4>
+                <ul class="technique-list">
+                    <li>Mention female friends casually</li>
+                    <li>Don't hide when other women show interest</li>
+                    <li>Be seen in social situations with attractive women</li>
+                    <li>Don't immediately delete dating apps</li>
+                </ul>
+            </div>
+
+            <!-- Secret 11 -->
+            <div class="secret-box">
+                <div class="secret-number">11</div>
+                <h3 class="secret-title">The Validation Withdrawal Method</h3>
+                <p class="secret-description">Most men give constant validation and compliments. When you withdraw this validation and make her earn it, she becomes desperate to regain your approval and admiration.</p>
+                
+                <div class="two-column">
+                    <div class="column chaser-column">
+                        <h4>Excessive Validation</h4>
+                        <ul class="bullet-list">
+                            <li>"You're so beautiful"</li>
+                            <li>"You're perfect"</li>
+                            <li>"I'm so lucky"</li>
+                            <li>Constant compliments</li>
+                        </ul>
+                    </div>
+                    <div class="column chased-column">
+                        <h4>Earned Validation</h4>
+                        <ul class="bullet-list">
+                            <li>"I like when you do that"</li>
+                            <li>"That's attractive"</li>
+                            <li>"You earned this compliment"</li>
+                            <li>Specific, rare praise</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h4>Validation Strategies:</h4>
+                <ul class="technique-list">
+                    <li>Compliment her actions, not just her appearance</li>
+                    <li>Make compliments rare and meaningful</li>
+                    <li>Don't validate attention-seeking behavior</li>
+                    <li>Praise her when she invests in you</li>
+                </ul>
+            </div>
+
+            <!-- Secret 12 -->
+            <div class="secret-box">
+                <div class="secret-number">12</div>
+                <h3 class="secret-title">The Unpredictability Factor</h3>
+                <p class="secret-description">Predictable men are boring. Unpredictable men are exciting and keep women on their toes. Vary your behavior, responses, and availability to maintain intrigue and excitement.</p>
+                
+                <div class="insight-box">
+                    <h4>The Excitement Equation:</h4>
+                    <p>Excitement = Uncertainty. When she never knows exactly what to expect from you, every interaction becomes thrilling and engaging.</p>
+                </div>
+
+                <h4>Unpredictability Techniques:</h4>
+                <ul class="technique-list">
+                    <li>Vary your response times to messages</li>
+                    <li>Sometimes be very available, sometimes busy</li>
+                    <li>Mix serious conversations with playful banter</li>
+                    <li>Surprise her with unexpected activities</li>
+                </ul>
+            </div>
+
+            <!-- Secret 13 -->
+            <div class="secret-box">
+                <div class="secret-number">13</div>
+                <h3 class="secret-title">The Authority Establishment Protocol</h3>
+                <p class="secret-description">Women are attracted to men who lead and take charge. Establish yourself as the authority in the relationship dynamic by making decisions, setting the pace, and taking control of situations.</p>
+                
+                <div class="example-box">
+                    <h4>Authority in Action:</h4>
+                    <p><strong>Weak:</strong> "What do you want to do tonight?"</p>
+                    <p><strong>Strong:</strong> "We're going to that new rooftop bar downtown. Wear something nice."</p>
+                </div>
+
+                <h4>Authority Building:</h4>
+                <ul class="technique-list">
+                    <li>Make decisions about dates and activities</li>
+                    <li>Take the lead in physical escalation</li>
+                    <li>Set the tone and pace of the relationship</li>
+                    <li>Handle logistics and planning</li>
+                </ul>
+            </div>
+
+            <!-- Secret 14 -->
+            <div class="secret-box">
+                <div class="secret-number">14</div>
+                <h3 class="secret-title">The Exclusivity Resistance Technique</h3>
+                <p class="secret-description">The harder something is to obtain, the more valuable it becomes. Don't rush into exclusivity or commitment. Make her earn the privilege of being your only option through consistent effort and investment.</p>
+                
+                <div class="success-box">
+                    <h4>The Commitment Paradox:</h4>
+                    <p>The less eager you are for commitment, the more she wants it. Resistance creates desire.</p>
+                </div>
+
+                <h4>Exclusivity Strategies:</h4>
+                <ul class="technique-list">
+                    <li>Don't bring up exclusivity first</li>
+                    <li>Set high standards for commitment</li>
+                    <li>Make her prove she deserves exclusivity</li>
+                    <li>Don't rush into serious labels</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secrets 15-21: Master Level -->
+    <section class="chapter" id="secrets15-21">
+        <div class="container">
+            <div class="chapter-number">15-21</div>
+            <h2 class="chapter-title">MASTER LEVEL STRATEGIES</h2>
+            
+            <p>These final seven secrets are for men who want to achieve complete mastery over relationship dynamics. Use these techniques to become irresistibly attractive and have women competing for your attention.</p>
+
+            <!-- Secret 15 -->
+            <div class="secret-box">
+                <div class="secret-number">15</div>
+                <h3 class="secret-title">The Abundance Mindset Manifestation</h3>
+                <p class="secret-description">True abundance isn't about having multiple women—it's about knowing you could have multiple women. This mindset makes you naturally less needy and more attractive because you're not dependent on any one person.</p>
+                
+                <div class="insight-box">
+                    <h4>Abundance vs. Scarcity Thinking:</h4>
+                    <p><strong>Scarcity:</strong> "I need to make this work or I'll be alone"</p>
+                    <p><strong>Abundance:</strong> "This is great, but I'll be fine either way"</p>
+                </div>
+
+                <h4>Building Abundance Mindset:</h4>
+                <ul class="technique-list">
+                    <li>Continue meeting new people even when dating someone</li>
+                    <li>Don't put all your eggs in one basket</li>
+                    <li>Focus on your own growth and success</li>
+                    <li>Remember that you're the prize</li>
+                </ul>
+            </div>
+
+            <!-- Secret 16 -->
+            <div class="secret-box">
+                <div class="secret-number">16</div>
+                <h3 class="secret-title">The Strategic Vulnerability Release</h3>
+                <p class="secret-description">Vulnerability creates connection, but it must be strategic and earned. Share deeper parts of yourself only after she has invested significantly in you. This creates powerful emotional bonds while maintaining your mystery.</p>
+                
+                <div class="example-box">
+                    <h4>Timing Vulnerability:</h4>
+                    <p><strong>Too Early:</strong> Sharing deep fears and insecurities on the first few dates</p>
+                    <p><strong>Strategic:</strong> Opening up after she has shown consistent investment and interest</p>
+                </div>
+
+                <h4>Vulnerability Guidelines:</h4>
+                <ul class="technique-list">
+                    <li>Share struggles you've overcome, not current weaknesses</li>
+                    <li>Reveal vulnerability from a position of strength</li>
+                    <li>Make her earn access to your deeper layers</li>
+                    <li>Balance vulnerability with confidence</li>
+                </ul>
+            </div>
+
+            <!-- Secret 17 -->
+            <div class="secret-box">
+                <div class="secret-number">17</div>
+                <h3 class="secret-title">The Future Projection Technique</h3>
+                <p class="secret-description">Paint a picture of an exciting future that she wants to be part of, but don't guarantee her place in it. This creates aspiration and makes her work to secure her position in your life.</p>
+                
+                <div class="success-box">
+                    <h4>Creating Aspiration:</h4>
+                    <p>When you talk about your exciting plans and goals, she naturally wants to be included. But don't assume she'll be there—make her earn the invitation.</p>
+                </div>
+
+                <h4>Projection Strategies:</h4>
+                <ul class="technique-list">
+                    <li>Talk about your exciting goals and plans</li>
+                    <li>Mention future trips or experiences</li>
+                    <li>Don't automatically include her in future plans</li>
+                    <li>Make inclusion conditional on her behavior</li>
+                </ul>
+            </div>
+
+            <!-- Secret 18 -->
+            <div class="secret-box">
+                <div class="secret-number">18</div>
+                <h3 class="secret-title">The Power Withdrawal Method</h3>
+                <p class="secret-description">When she starts taking you for granted or testing your boundaries, strategically withdraw your power and attention. This reminds her of your value and resets the dynamic in your favor.</p>
+                
+                <div class="warning-box">
+                    <h4>Use Wisely:</h4>
+                    <p>This is a reset tool, not a punishment. Use it when the relationship dynamic has shifted and you need to reestablish your value.</p>
+                </div>
+
+                <h4>Power Withdrawal Tactics:</h4>
+                <ul class="technique-list">
+                    <li>Become less available after disrespectful behavior</li>
+                    <li>Reduce communication frequency temporarily</li>
+                    <li>Focus more on your own goals and interests</li>
+                    <li>Let her reach out and make effort to reconnect</li>
+                </ul>
+            </div>
+
+            <!-- Secret 19 -->
+            <div class="secret-box">
+                <div class="secret-number">19</div>
+                <h3 class="secret-title">The Social Status Elevation System</h3>
+                <p class="secret-description">Continuously work on elevating your social status in all areas of life. The higher your status, the more women will compete for your attention and the less you'll need to chase anyone.</p>
+                
+                <div class="insight-box">
+                    <h4>Status Multiplier Effect:</h4>
+                    <p>High status in one area amplifies your attractiveness in all areas. Success breeds success, and confidence breeds confidence.</p>
+                </div>
+
+                <h4>Status Elevation Areas:</h4>
+                <ul class="technique-list">
+                    <li>Professional success and expertise</li>
+                    <li>Physical fitness and appearance</li>
+                    <li>Social connections and network</li>
+                    <li>Skills, hobbies, and talents</li>
+                </ul>
+            </div>
+
+            <!-- Secret 20 -->
+            <div class="secret-box">
+                <div class="secret-number">20</div>
+                <h3 class="secret-title">The Outcome Independence Mastery</h3>
+                <p class="secret-description">True mastery comes when you genuinely don't need any specific outcome with any specific woman. You're happy to connect if there's mutual interest, but you're equally content walking away if there isn't.</p>
+                
+                <div class="example-box">
+                    <h4>Outcome Independence in Practice:</h4>
+                    <p>You approach interactions with curiosity and openness, but without attachment to any particular result. This removes pressure and makes you naturally more attractive.</p>
+                </div>
+
+                <h4>Developing Outcome Independence:</h4>
+                <ul class="technique-list">
+                    <li>Have multiple sources of fulfillment in life</li>
+                    <li>Don't invest heavily in uncertain outcomes</li>
+                    <li>Focus on the process, not the result</li>
+                    <li>Be willing to walk away from anything</li>
+                </ul>
+            </div>
+
+            <!-- Secret 21 -->
+            <div class="secret-box">
+                <div class="secret-number">21</div>
+                <h3 class="secret-title">The Magnetic Presence Cultivation</h3>
+                <p class="secret-description">The ultimate secret is developing a magnetic presence that draws people to you naturally. This comes from being genuinely content with yourself, having clear direction in life, and radiating positive energy that others want to be around.</p>
+                
+                <div class="success-box">
+                    <h4>The Final Transformation:</h4>
+                    <p>When you master all 21 secrets, you become the type of man women naturally chase. You don't need techniques anymore—your very presence creates attraction.</p>
+                </div>
+
+                <h4>Magnetic Presence Elements:</h4>
+                <ul class="technique-list">
+                    <li>Unshakeable self-confidence and self-worth</li>
+                    <li>Clear purpose and direction in life</li>
+                    <li>Genuine contentment and inner peace</li>
+                    <li>Natural charisma and social ease</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Implementation Guide -->
+    <section class="chapter" id="implementation">
+        <div class="container">
+            <div class="chapter-number">🎯</div>
+            <h2 class="chapter-title">30-DAY IMPLEMENTATION GUIDE</h2>
+            
+            <p>Knowledge without action is worthless. This 30-day implementation guide will help you integrate all 21 secrets into your daily life and transform your dating results.</p>
+
+            <div class="action-plan">
+                <h3>Phase 1: Foundation (Days 1-10)</h3>
+                <p>Focus on building the core mindset and behaviors that make you naturally more attractive.</p>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 1-2</div>
+                        <div class="timeline-content">
+                            <h4>Mindset Reset</h4>
+                            <ul class="checklist">
+                                <li>Write down why chasing hasn't worked for you</li>
+                                <li>Identify your current needy behaviors</li>
+                                <li>Commit to the abundance mindset</li>
+                                <li>Set your new relationship standards</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 3-5</div>
+                        <div class="timeline-content">
+                            <h4>Implement Scarcity</h4>
+                            <ul class="checklist">
+                                <li>Limit your availability to specific times</li>
+                                <li>Stop responding to texts immediately</li>
+                                <li>Start saying no to last-minute requests</li>
+                                <li>Fill your schedule with valuable activities</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 6-8</div>
+                        <div class="timeline-content">
+                            <h4>Build Mystery</h4>
+                            <ul class="checklist">
+                                <li>Stop oversharing in conversations</li>
+                                <li>Leave some questions unanswered</li>
+                                <li>Reference experiences without full explanations</li>
+                                <li>End conversations while they're still engaging</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 9-10</div>
+                        <div class="timeline-content">
+                            <h4>Challenge Introduction</h4>
+                            <ul class="checklist">
+                                <li>Stop giving excessive compliments</li>
+                                <li>Express genuine standards and preferences</li>
+                                <li>Show interest but not desperation</li>
+                                <li>Make her work for your approval</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-plan">
+                <h3>Phase 2: Advanced Integration (Days 11-20)</h3>
+                <p>Layer in the more sophisticated techniques while reinforcing the foundation principles.</p>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 11-13</div>
+                        <div class="timeline-content">
+                            <h4>Social Proof Building</h4>
+                            <ul class="checklist">
+                                <li>Develop friendships with attractive women</li>
+                                <li>Post social photos showing your active life</li>
+                                <li>Mention other women casually in conversation</li>
+                                <li>Be seen in social situations with multiple people</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 14-16</div>
+                        <div class="timeline-content">
+                            <h4>Investment Reversal</h4>
+                            <ul class="checklist">
+                                <li>Ask her to plan the next date</li>
+                                <li>Have her pick you up occasionally</li>
+                                <li>Let her initiate some conversations</li>
+                                <li>Accept her offers to pay sometimes</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 17-20</div>
+                        <div class="timeline-content">
+                            <h4>Emotional Distance & Standards</h4>
+                            <ul class="checklist">
+                                <li>Create strategic emotional space</li>
+                                <li>Enforce your boundaries consistently</li>
+                                <li>Withdraw validation for poor behavior</li>
+                                <li>Maintain unpredictable response patterns</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-plan">
+                <h3>Phase 3: Mastery (Days 21-30)</h3>
+                <p>Integrate the master-level techniques and develop natural abundance mindset.</p>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 21-25</div>
+                        <div class="timeline-content">
+                            <h4>Abundance & Authority</h4>
+                            <ul class="checklist">
+                                <li>Cultivate genuine abundance mindset</li>
+                                <li>Take authority in all relationship decisions</li>
+                                <li>Project exciting future vision</li>
+                                <li>Use strategic vulnerability when earned</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-day">Day 26-30</div>
+                        <div class="timeline-content">
+                            <h4>Magnetic Presence</h4>
+                            <ul class="checklist">
+                                <li>Develop outcome independence completely</li>
+                                <li>Focus on elevating your status in all areas</li>
+                                <li>Practice power withdrawal when necessary</li>
+                                <li>Cultivate magnetic presence naturally</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="success-box">
+                <h4>Expected Results After 30 Days:</h4>
+                <ul class="checklist">
+                    <li>Women will start texting you first more often</li>
+                    <li>You'll notice increased interest and investment from women</li>
+                    <li>Your confidence will be noticeably higher</li>
+                    <li>You'll feel less needy and more abundant</li>
+                    <li>Women will compete more for your attention</li>
+                    <li>You'll have more options and better dating experiences</li>
+                </ul>
+            </div>
+
+            <div class="insight-box">
+                <h4>Final Reminders:</h4>
+                <p>Remember, the goal isn't to manipulate or hurt anyone. It's to become genuinely more attractive by developing authentic confidence, standards, and abundance. When you stop chasing and start being worth chasing, everything changes.</p>
+                <p><strong>The transformation is real. The results are powerful. Your new life as a man women chase starts now.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Scroll to chapter function
+        function scrollToChapter(chapterId) {
+            const chapter = document.getElementById(chapterId);
+            if (chapter) {
+                chapter.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Update scroll progress
+        function updateScrollProgress() {
+            const scrollProgress = document.getElementById('scrollBar');
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const progress = (scrollTop / scrollHeight) * 100;
+            scrollProgress.style.width = progress + '%';
+        }
+
+        // Add scroll event listener
+        window.addEventListener('scroll', updateScrollProgress);
+
+        // Initialize scroll progress
+        updateScrollProgress();
+
+        // Add click effects to secret boxes
+        document.querySelectorAll('.secret-box').forEach(box => {
+            box.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px) scale(1.01)';
+                this.style.transition = 'all 0.3s ease';
+            });
+            
+            box.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Add number highlighting animation
+        document.querySelectorAll('.secret-number').forEach((number, index) => {
+            setTimeout(() => {
+                number.style.animation = 'glow-pulse 2s ease-in-out infinite';
+                number.style.animationDelay = `${index * 0.1}s`;
+            }, 1000);
+        });
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function() {
+                this.style.transform = 'translateY(-5px)';
+                setTimeout(() => {
+                    this.style.transform = 'translateY(0)';
+                }, 200);
+            });
+        });
+
+        // Add glow animation keyframes
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes glow-pulse {
+                0%, 100% { 
+                    box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+                }
+                50% { 
+                    box-shadow: 0 15px 35px rgba(255, 215, 0, 0.6);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
